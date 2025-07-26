@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return render_template('Readdy.html')
+    return render_template('Readdy Site.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
